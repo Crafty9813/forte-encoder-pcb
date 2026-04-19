@@ -1,1 +1,1 @@
-# forte-encoder-pcb
+Joint encoder pcb for Forte
