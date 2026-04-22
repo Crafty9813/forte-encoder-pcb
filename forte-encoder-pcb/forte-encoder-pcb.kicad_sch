@@ -10053,6 +10053,16 @@
 	)
 	(wire
 		(pts
+			(xy 549.91 193.04) (xy 544.83 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e353401-9eba-4040-a3c8-e3b593aa981d")
+	)
+	(wire
+		(pts
 			(xy 57.15 182.88) (xy 63.5 182.88)
 		)
 		(stroke
@@ -10140,6 +10150,16 @@
 			(type default)
 		)
 		(uuid "1ef03ff5-fb9b-493c-b5b4-999f4b7454f2")
+	)
+	(wire
+		(pts
+			(xy 508 193.04) (xy 502.92 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20237691-2ed3-4975-b7ec-48f337257413")
 	)
 	(wire
 		(pts
@@ -10653,6 +10673,16 @@
 	)
 	(wire
 		(pts
+			(xy 544.83 209.55) (xy 549.91 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60fed24e-ffef-40d4-92f5-956ce2c5064e")
+	)
+	(wire
+		(pts
 			(xy 111.76 167.64) (xy 127 167.64)
 		)
 		(stroke
@@ -10833,6 +10863,16 @@
 	)
 	(wire
 		(pts
+			(xy 461.01 208.28) (xy 466.09 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "758ae688-3793-47b6-9813-cf3d8220cc72")
+	)
+	(wire
+		(pts
 			(xy 317.5 55.88) (xy 317.5 52.07)
 		)
 		(stroke
@@ -10900,6 +10940,16 @@
 			(type default)
 		)
 		(uuid "7abaf775-4434-48f5-8cfa-942172700b66")
+	)
+	(wire
+		(pts
+			(xy 466.09 193.04) (xy 461.01 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ade753d-d6f2-4b94-9fc2-3432fc9f07b2")
 	)
 	(wire
 		(pts
@@ -11771,6 +11821,16 @@
 		)
 		(uuid "ff16cb0c-31ad-420c-bd15-811c9f42d797")
 	)
+	(wire
+		(pts
+			(xy 502.92 208.28) (xy 508 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff5c8d0c-c79d-4cd9-be26-f484bde531e2")
+	)
 	(label "TCK"
 		(at 481.33 154.94 180)
 		(effects
@@ -12475,7 +12535,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 537.21 204.47 0)
+		(at 455.93 208.28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12484,8 +12544,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "10acb485-f94a-4a24-a26b-1bdcfbbe9f88")
-		(property "Reference" "J8"
-			(at 537.845 199.39 0)
+		(property "Reference" "J4"
+			(at 456.565 203.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12495,7 +12555,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01_Pin"
-			(at 537.845 201.93 0)
+			(at 456.565 205.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12505,7 +12565,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
-			(at 537.464 206.502 0)
+			(at 456.184 210.312 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12515,7 +12575,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 537.21 204.47 0)
+			(at 455.93 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12526,7 +12586,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 537.21 204.47 0)
+			(at 455.93 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12542,7 +12602,7 @@
 		(instances
 			(project "forte-encoder-pcb"
 				(path "/4fd4f7f7-4e27-480c-b1ee-dc0730be04ca"
-					(reference "J8")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -13386,7 +13446,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "22e06215-ee47-4a9f-9608-ce0307e500cb")
-		(property "Reference" "J11"
+		(property "Reference" "J2"
 			(at 498.475 187.96 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13397,7 +13457,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01_Pin"
-			(at 498.475 190.5 0)
+			(at 493.268 191.262 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13444,7 +13504,7 @@
 		(instances
 			(project "forte-encoder-pcb"
 				(path "/4fd4f7f7-4e27-480c-b1ee-dc0730be04ca"
-					(reference "J11")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -14004,6 +14064,84 @@
 			(project "forte-encoder-pcb"
 				(path "/4fd4f7f7-4e27-480c-b1ee-dc0730be04ca"
 					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 508 208.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "35e8189b-25d0-4c3b-8ffd-09b757512cd1")
+		(property "Reference" "#PWR051"
+			(at 508 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 508 213.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 508 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 508 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 508 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9a86e597-502d-4551-aef4-c9cc151a65c0")
+		)
+		(instances
+			(project "forte-encoder-pcb"
+				(path "/4fd4f7f7-4e27-480c-b1ee-dc0730be04ca"
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -17125,6 +17263,84 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 466.09 208.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8b9a7db7-0e95-4860-8042-65cb69c3ec2c")
+		(property "Reference" "#PWR047"
+			(at 466.09 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 466.09 213.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 466.09 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 466.09 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 466.09 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "82eaddff-8f2b-45cd-a911-ff407be1e909")
+		)
+		(instances
+			(project "forte-encoder-pcb"
+				(path "/4fd4f7f7-4e27-480c-b1ee-dc0730be04ca"
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 349.25 87.63 0)
 		(unit 1)
 		(body_style 1)
@@ -17856,8 +18072,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 538.48 194.31 0)
+		(lib_id "power:GND")
+		(at 549.91 209.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17865,9 +18081,11 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "9e72fe59-2d27-4c20-b494-a63b5536c974")
-		(property "Reference" "J10"
-			(at 539.115 189.23 0)
+		(fields_autoplaced yes)
+		(uuid "9c6bc1c5-8b2d-4f29-a51b-2de0ba50f4f4")
+		(property "Reference" "#PWR052"
+			(at 549.91 215.9 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17876,8 +18094,8 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x01_Pin"
-			(at 539.115 191.77 0)
+		(property "Value" "GND"
+			(at 549.91 214.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17886,8 +18104,9 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
-			(at 538.734 196.342 0)
+		(property "Footprint" ""
+			(at 549.91 209.55 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17897,7 +18116,82 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 538.48 194.31 0)
+			(at 549.91 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 549.91 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2b8f2cd2-ffa1-4a27-bd4c-8df0d27190dd")
+		)
+		(instances
+			(project "forte-encoder-pcb"
+				(path "/4fd4f7f7-4e27-480c-b1ee-dc0730be04ca"
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 539.75 193.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9e72fe59-2d27-4c20-b494-a63b5536c974")
+		(property "Reference" "J3"
+			(at 540.385 187.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 540.385 190.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
+			(at 540.004 195.072 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 539.75 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17908,7 +18202,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 538.48 194.31 0)
+			(at 539.75 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17924,7 +18218,7 @@
 		(instances
 			(project "forte-encoder-pcb"
 				(path "/4fd4f7f7-4e27-480c-b1ee-dc0730be04ca"
-					(reference "J10")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -18650,6 +18944,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+48V")
+		(at 466.09 193.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b53d0b09-24c9-4f4f-a0a3-b5586cadb3c1")
+		(property "Reference" "#PWR075"
+			(at 466.09 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+48V"
+			(at 466.09 187.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 466.09 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 466.09 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+48V\""
+			(at 466.09 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "822a5093-0636-449b-a0eb-c624e96de6a4")
+		)
+		(instances
+			(project "forte-encoder-pcb"
+				(path "/4fd4f7f7-4e27-480c-b1ee-dc0730be04ca"
+					(reference "#PWR075")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 127 62.23 0)
 		(unit 1)
@@ -19044,8 +19416,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 496.57 214.63 0)
+		(lib_id "power:+48V")
+		(at 549.91 193.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19053,9 +19425,11 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "c7d941d5-b48e-4cfe-881c-0cb170987673")
-		(property "Reference" "J6"
-			(at 497.205 209.55 0)
+		(fields_autoplaced yes)
+		(uuid "c3b28022-4d28-4c8d-8568-06f791d425be")
+		(property "Reference" "#PWR074"
+			(at 549.91 196.85 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19064,8 +19438,8 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x01_Pin"
-			(at 497.205 212.09 0)
+		(property "Value" "+48V"
+			(at 549.91 187.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19074,8 +19448,9 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
-			(at 496.824 216.662 0)
+		(property "Footprint" ""
+			(at 549.91 193.04 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19085,7 +19460,82 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 496.57 214.63 0)
+			(at 549.91 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+48V\""
+			(at 549.91 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0259ed32-00e3-4aea-9e37-0670a39932ad")
+		)
+		(instances
+			(project "forte-encoder-pcb"
+				(path "/4fd4f7f7-4e27-480c-b1ee-dc0730be04ca"
+					(reference "#PWR074")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 497.84 208.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c7d941d5-b48e-4cfe-881c-0cb170987673")
+		(property "Reference" "J5"
+			(at 498.475 203.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 498.475 205.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
+			(at 498.094 210.312 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 497.84 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19096,7 +19546,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 496.57 214.63 0)
+			(at 497.84 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19112,7 +19562,7 @@
 		(instances
 			(project "forte-encoder-pcb"
 				(path "/4fd4f7f7-4e27-480c-b1ee-dc0730be04ca"
-					(reference "J6")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -19742,7 +20192,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 496.57 204.47 0)
+		(at 455.93 193.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19751,8 +20201,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d8c9433e-eca6-4366-ab0a-f2371f5142c9")
-		(property "Reference" "J7"
-			(at 497.205 199.39 0)
+		(property "Reference" "J1"
+			(at 456.565 187.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19762,7 +20212,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01_Pin"
-			(at 497.205 201.93 0)
+			(at 448.31 189.738 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19772,7 +20222,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
-			(at 496.824 206.502 0)
+			(at 456.184 195.072 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19782,7 +20232,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 496.57 204.47 0)
+			(at 455.93 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19793,7 +20243,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 496.57 204.47 0)
+			(at 455.93 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19809,7 +20259,7 @@
 		(instances
 			(project "forte-encoder-pcb"
 				(path "/4fd4f7f7-4e27-480c-b1ee-dc0730be04ca"
-					(reference "J7")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -20368,7 +20818,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 537.21 215.9 0)
+		(at 539.75 209.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20377,8 +20827,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ebc70bef-09a3-49b4-928c-fab57802a36f")
-		(property "Reference" "J9"
-			(at 537.845 210.82 0)
+		(property "Reference" "J6"
+			(at 540.385 204.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20388,7 +20838,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01_Pin"
-			(at 537.845 213.36 0)
+			(at 540.385 207.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20398,7 +20848,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
-			(at 537.464 217.932 0)
+			(at 540.004 211.582 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20408,7 +20858,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 537.21 215.9 0)
+			(at 539.75 209.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20419,7 +20869,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 537.21 215.9 0)
+			(at 539.75 209.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20435,7 +20885,7 @@
 		(instances
 			(project "forte-encoder-pcb"
 				(path "/4fd4f7f7-4e27-480c-b1ee-dc0730be04ca"
-					(reference "J9")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -20845,7 +21295,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f3ed60c5-1682-48b4-b14e-24a3015d719d")
-		(property "Reference" "J1"
+		(property "Reference" "J0"
 			(at 501.65 158.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20926,7 +21376,7 @@
 		(instances
 			(project "forte-encoder-pcb"
 				(path "/4fd4f7f7-4e27-480c-b1ee-dc0730be04ca"
-					(reference "J1")
+					(reference "J0")
 					(unit 1)
 				)
 			)
@@ -21372,6 +21822,84 @@
 			(project "forte-encoder-pcb"
 				(path "/4fd4f7f7-4e27-480c-b1ee-dc0730be04ca"
 					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+48V")
+		(at 508 193.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd8e22d9-38f1-4280-86fc-e063cf9f5792")
+		(property "Reference" "#PWR073"
+			(at 508 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+48V"
+			(at 508 187.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 508 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 508 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+48V\""
+			(at 508 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "79c64891-0b06-4bbe-ae26-ab7f1ec39651")
+		)
+		(instances
+			(project "forte-encoder-pcb"
+				(path "/4fd4f7f7-4e27-480c-b1ee-dc0730be04ca"
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
