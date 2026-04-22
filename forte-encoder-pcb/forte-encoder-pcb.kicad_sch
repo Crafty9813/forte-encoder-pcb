@@ -5,6 +5,146 @@
 	(uuid "4fd4f7f7-4e27-480c-b1ee-dc0730be04ca")
 	(paper "A1")
 	(lib_symbols
+		(symbol "Connector:Conn_01x01_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01_Pin"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x01_Pin_1_1"
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:TestPoint"
 			(pin_numbers
 				(hide yes)
@@ -8460,207 +8600,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "dash:XT30PW-M"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "CN"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "dash:xt-30"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://item.szlcsc.com/datasheet/XT30PW-M30.G.Y/426930.html"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Rated current:15A Rated voltage: Connector type:Model aircraft plug Wire gauge: contact resistance: Size/Specification: interface form:Male"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer Part" "XT30PW-M30.G.Y"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "AMASS(艾迈斯)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Supplier Part" "C431092"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Supplier" "LCSC"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC Part Name" "AMASS(艾迈斯)航模插头电调机插座锂电池连接器 PCB板卧式 公头XT30PW-M30.G.Y"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "XT30PW-M_1_0"
-				(rectangle
-					(start -3.81 -5.08)
-					(end 3.81 2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at -1.27 5.08 270)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 1.27 5.08 270)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 6.35 -3.81 180)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -6.35 -3.81 0)
-					(length 2.54)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+12V"
 			(power global)
 			(pin_numbers
@@ -10354,16 +10293,6 @@
 	)
 	(wire
 		(pts
-			(xy 439.42 163.83) (xy 439.42 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37b85585-9537-4ee1-8f25-d7e886ed5c90")
-	)
-	(wire
-		(pts
 			(xy 143.51 105.41) (xy 160.02 105.41)
 		)
 		(stroke
@@ -10581,16 +10510,6 @@
 			(type default)
 		)
 		(uuid "4ff7df35-5adb-4a28-82a0-c5ea6a630ae6")
-	)
-	(wire
-		(pts
-			(xy 429.26 158.75) (xy 439.42 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50a69968-00cf-4bed-9eb7-dc5cd92cf95b")
 	)
 	(wire
 		(pts
@@ -11174,16 +11093,6 @@
 	)
 	(wire
 		(pts
-			(xy 429.26 161.29) (xy 439.42 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95712373-8d1e-4727-bf70-d7b063960d65")
-	)
-	(wire
-		(pts
 			(xy 591.82 53.34) (xy 612.14 53.34)
 		)
 		(stroke
@@ -11654,16 +11563,6 @@
 	)
 	(wire
 		(pts
-			(xy 439.42 170.18) (xy 434.34 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec5227a0-17de-4e92-83c8-7099489d72b7")
-	)
-	(wire
-		(pts
 			(xy 113.03 30.48) (xy 113.03 36.83)
 		)
 		(stroke
@@ -11864,16 +11763,6 @@
 	)
 	(wire
 		(pts
-			(xy 429.26 156.21) (xy 439.42 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc7ecc48-a8df-44c1-be0f-fbc272d7ba7a")
-	)
-	(wire
-		(pts
 			(xy 412.75 163.83) (xy 412.75 171.45)
 		)
 		(stroke
@@ -11932,16 +11821,6 @@
 			(justify left bottom)
 		)
 		(uuid "22a1f8a9-a638-4b68-8a0e-bfbf15fc9f06")
-	)
-	(label "CAN-"
-		(at 429.26 158.75 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "23df8bf6-768b-4176-bdd0-ec877642a7d0")
 	)
 	(label "SCK"
 		(at 125.73 180.34 0)
@@ -12197,16 +12076,6 @@
 			(justify right bottom)
 		)
 		(uuid "f54441c4-1481-4e3f-a8f0-b205c665e893")
-	)
-	(label "CAN+"
-		(at 429.26 156.21 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f6ae4e5a-c02b-4adb-ad42-cb6e1be28611")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -12605,8 +12474,8 @@
 		)
 	)
 	(symbol
-		(lib_id "dash:XT30PW-M")
-		(at 434.34 189.23 0)
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 537.21 204.47 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12614,10 +12483,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "11cc89bd-31b4-4683-8a07-3345da912077")
-		(property "Reference" "CN2"
-			(at 434.34 196.85 0)
+		(uuid "10acb485-f94a-4a24-a26b-1bdcfbbe9f88")
+		(property "Reference" "J8"
+			(at 537.845 199.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12626,8 +12494,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 434.34 189.23 0)
+		(property "Value" "Conn_01x01_Pin"
+			(at 537.845 201.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12636,8 +12504,18 @@
 				)
 			)
 		)
-		(property "Footprint" "dash:xt-30"
-			(at 434.34 189.23 0)
+		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
+			(at 537.464 206.502 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 537.21 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12647,8 +12525,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/XT30PW-M30.G.Y/426930.html"
-			(at 434.34 189.23 0)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 537.21 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12657,89 +12535,14 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "Description" "Rated current:15A Rated voltage: Connector type:Model aircraft plug Wire gauge: contact resistance: Size/Specification: interface form:Male"
-			(at 434.34 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part" "XT30PW-M30.G.Y"
-			(at 434.34 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "AMASS(艾迈斯)"
-			(at 434.34 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier Part" "C431092"
-			(at 434.34 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 434.34 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part Name" "AMASS(艾迈斯)航模插头电调机插座锂电池连接器 PCB板卧式 公头XT30PW-M30.G.Y"
-			(at 434.34 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "701efc65-5059-44a6-8d98-b54ceb652ef0")
 		)
 		(pin "1"
-			(uuid "af9e8b15-47cb-4d12-a56d-5fbfc88d51e8")
-		)
-		(pin "3"
-			(uuid "691a7631-836d-4b16-a26a-943bd4ecc9ee")
-		)
-		(pin "2"
-			(uuid "7635adaf-b678-4570-9248-5d7706cb9d2d")
+			(uuid "248aa1fb-6f9b-4ded-9724-0732a566b0f1")
 		)
 		(instances
 			(project "forte-encoder-pcb"
 				(path "/4fd4f7f7-4e27-480c-b1ee-dc0730be04ca"
-					(reference "CN2")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -13567,6 +13370,81 @@
 			(project "forte-encoder-pcb"
 				(path "/4fd4f7f7-4e27-480c-b1ee-dc0730be04ca"
 					(reference "C54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 497.84 193.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "22e06215-ee47-4a9f-9608-ce0307e500cb")
+		(property "Reference" "J11"
+			(at 498.475 187.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 498.475 190.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
+			(at 498.094 195.072 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 497.84 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 497.84 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3e5b621f-ceb8-4809-bcc2-45a6f8ee976f")
+		)
+		(instances
+			(project "forte-encoder-pcb"
+				(path "/4fd4f7f7-4e27-480c-b1ee-dc0730be04ca"
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -14575,147 +14453,6 @@
 		)
 	)
 	(symbol
-		(lib_id "dash:XT30PW-M")
-		(at 414.02 189.23 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "45052c60-4033-41ca-955b-d0d8567819e5")
-		(property "Reference" "CN1"
-			(at 414.02 196.85 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" ""
-			(at 414.02 189.23 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "dash:xt-30"
-			(at 414.02 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://item.szlcsc.com/datasheet/XT30PW-M30.G.Y/426930.html"
-			(at 414.02 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Rated current:15A Rated voltage: Connector type:Model aircraft plug Wire gauge: contact resistance: Size/Specification: interface form:Male"
-			(at 414.02 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part" "XT30PW-M30.G.Y"
-			(at 414.02 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "AMASS(艾迈斯)"
-			(at 414.02 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier Part" "C431092"
-			(at 414.02 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 414.02 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part Name" "AMASS(艾迈斯)航模插头电调机插座锂电池连接器 PCB板卧式 公头XT30PW-M30.G.Y"
-			(at 414.02 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "cfb3d83e-5e2c-4275-abdb-cdbc1bcf4af6")
-		)
-		(pin "2"
-			(uuid "520153ef-6310-4004-8b15-c9de298982ed")
-		)
-		(pin "1"
-			(uuid "dc7e129a-a8f3-4f97-983b-0b9bad3e94d6")
-		)
-		(pin "4"
-			(uuid "05aa977a-7565-4e54-a7f4-78bc536280fa")
-		)
-		(instances
-			(project "forte-encoder-pcb"
-				(path "/4fd4f7f7-4e27-480c-b1ee-dc0730be04ca"
-					(reference "CN1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+12V")
 		(at 655.32 50.8 90)
 		(unit 1)
@@ -15470,84 +15207,6 @@
 			(project "forte-encoder-pcb"
 				(path "/4fd4f7f7-4e27-480c-b1ee-dc0730be04ca"
 					(reference "#FLG03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+48V")
-		(at 434.34 170.18 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "62c37a01-9223-4dd5-90e0-346991e47823")
-		(property "Reference" "#PWR052"
-			(at 434.34 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+48V"
-			(at 434.34 165.1 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 434.34 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 434.34 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+48V\""
-			(at 434.34 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1c56e0fd-7db2-45c2-b732-7e3e7e9af15c")
-		)
-		(instances
-			(project "forte-encoder-pcb"
-				(path "/4fd4f7f7-4e27-480c-b1ee-dc0730be04ca"
-					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -18197,6 +17856,81 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 538.48 194.31 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9e72fe59-2d27-4c20-b494-a63b5536c974")
+		(property "Reference" "J10"
+			(at 539.115 189.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 539.115 191.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
+			(at 538.734 196.342 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 538.48 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 538.48 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0d8a99c0-9872-49b2-bd19-f27118f2c012")
+		)
+		(instances
+			(project "forte-encoder-pcb"
+				(path "/4fd4f7f7-4e27-480c-b1ee-dc0730be04ca"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 113.03 30.48 0)
 		(unit 1)
@@ -19310,8 +19044,8 @@
 		)
 	)
 	(symbol
-		(lib_id "dash:XT30(2+2)PB-M.G.B")
-		(at 444.5 160.02 0)
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 496.57 214.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19319,33 +19053,29 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "c7284ae1-560c-4271-835b-4286b80cfed7")
-		(property "Reference" "CN3(OUT)2"
-			(at 436.88 151.384 0)
+		(uuid "c7d941d5-b48e-4cfe-881c-0cb170987673")
+		(property "Reference" "J6"
+			(at 497.205 209.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "XT30(2+2)PB-M.G.B"
-			(at 448.31 161.2899 0)
-			(hide yes)
+		(property "Value" "Conn_01x01_Pin"
+			(at 497.205 212.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "dash:XT30(2+2)PB-M.G.B"
-			(at 444.246 168.148 0)
-			(hide yes)
+		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
+			(at 496.824 216.662 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19355,7 +19085,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 445.516 172.72 0)
+			(at 496.57 214.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19365,8 +19095,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 444.5 160.02 0)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 496.57 214.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19375,78 +19105,14 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "Manufacturer Part" "XT30(2+2)PB-M.G.B"
-			(at 444.246 151.892 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 444.246 148.336 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier Part" ""
-			(at 443.992 149.098 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" ""
-			(at 444.5 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part Name" ""
-			(at 443.738 145.034 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "9069e0c3-6443-4c3c-9b43-fbb333d50abd")
-		)
-		(pin "3"
-			(uuid "29bdd93e-a761-4e4f-97ec-c62daa5e7382")
-		)
-		(pin "2"
-			(uuid "fd0f4432-2471-43be-bc19-6582e0759863")
 		)
 		(pin "1"
-			(uuid "e123f9c9-27a9-43bd-86c8-630dd6b0558a")
+			(uuid "10b0d3f0-c4df-4ccf-b78c-52f549ba724b")
 		)
 		(instances
 			(project "forte-encoder-pcb"
 				(path "/4fd4f7f7-4e27-480c-b1ee-dc0730be04ca"
-					(reference "CN3(OUT)2")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -20075,6 +19741,81 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 496.57 204.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d8c9433e-eca6-4366-ab0a-f2371f5142c9")
+		(property "Reference" "J7"
+			(at 497.205 199.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 497.205 201.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
+			(at 496.824 206.502 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 496.57 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 496.57 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "34039086-476b-44d2-9144-727c078c0c29")
+		)
+		(instances
+			(project "forte-encoder-pcb"
+				(path "/4fd4f7f7-4e27-480c-b1ee-dc0730be04ca"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 125.73 57.15 0)
 		(unit 1)
@@ -20548,84 +20289,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 429.26 161.29 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e7917a1c-6cf8-4204-85e3-94146e962610")
-		(property "Reference" "#PWR047"
-			(at 429.26 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 429.26 166.37 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 429.26 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 429.26 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 429.26 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7c1e6cbe-4c6a-4928-8659-f2a5f497ab47")
-		)
-		(instances
-			(project "forte-encoder-pcb"
-				(path "/4fd4f7f7-4e27-480c-b1ee-dc0730be04ca"
-					(reference "#PWR047")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+12V")
 		(at 370.84 39.37 0)
 		(unit 1)
@@ -20698,6 +20361,81 @@
 			(project "forte-encoder-pcb"
 				(path "/4fd4f7f7-4e27-480c-b1ee-dc0730be04ca"
 					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 537.21 215.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ebc70bef-09a3-49b4-928c-fab57802a36f")
+		(property "Reference" "J9"
+			(at 537.845 210.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 537.845 213.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
+			(at 537.464 217.932 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 537.21 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 537.21 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "89a119ae-2bb3-4997-b5a6-8ab132747297")
+		)
+		(instances
+			(project "forte-encoder-pcb"
+				(path "/4fd4f7f7-4e27-480c-b1ee-dc0730be04ca"
+					(reference "J9")
 					(unit 1)
 				)
 			)
