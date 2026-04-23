@@ -10143,6 +10143,16 @@
 	)
 	(wire
 		(pts
+			(xy 449.58 177.8) (xy 454.66 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ea3407f-864d-4d90-b0e3-f3aa8d689275")
+	)
+	(wire
+		(pts
 			(xy 260.35 86.36) (xy 260.35 82.55)
 		)
 		(stroke
@@ -10230,6 +10240,16 @@
 			(type default)
 		)
 		(uuid "2ce5df64-b103-443a-b87d-010b187f37bd")
+	)
+	(wire
+		(pts
+			(xy 449.58 151.13) (xy 454.66 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f692994-7691-4353-b6eb-903b96a14ef5")
 	)
 	(wire
 		(pts
@@ -10340,6 +10360,16 @@
 			(type default)
 		)
 		(uuid "3a016dba-7592-4b09-87c8-bcceab73f012")
+	)
+	(wire
+		(pts
+			(xy 449.58 165.1) (xy 454.66 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bbea7bd-c8d0-4889-819f-4c4dec07f858")
 	)
 	(wire
 		(pts
@@ -10623,6 +10653,16 @@
 	)
 	(wire
 		(pts
+			(xy 449.58 137.16) (xy 454.66 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a91e083-0d98-4e3a-955f-d7e298a28834")
+	)
+	(wire
+		(pts
 			(xy 359.41 66.04) (xy 359.41 85.09)
 		)
 		(stroke
@@ -10630,6 +10670,16 @@
 			(type default)
 		)
 		(uuid "5c77a414-cf58-4a65-b994-9e0489fdb503")
+	)
+	(wire
+		(pts
+			(xy 454.66 170.18) (xy 454.66 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d45b010-730d-4130-8e38-35220ce8ce2c")
 	)
 	(wire
 		(pts
@@ -10750,6 +10800,16 @@
 			(type default)
 		)
 		(uuid "64fcf62c-c152-4994-919e-a8acb0fe2c7a")
+	)
+	(wire
+		(pts
+			(xy 454.66 143.51) (xy 454.66 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67f9d3ae-d1b0-4faf-a479-f9ffb99d0c6c")
 	)
 	(wire
 		(pts
@@ -10880,6 +10940,16 @@
 			(type default)
 		)
 		(uuid "76b675cf-f9b1-4110-bafc-d188e36915a6")
+	)
+	(wire
+		(pts
+			(xy 454.66 157.48) (xy 454.66 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "772648a5-4d24-42b6-add4-b62a8c3cc243")
 	)
 	(wire
 		(pts
@@ -11360,6 +11430,16 @@
 			(type default)
 		)
 		(uuid "c4e86f8d-6f25-4235-acbf-37cd46e2d2eb")
+	)
+	(wire
+		(pts
+			(xy 454.66 129.54) (xy 454.66 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c817fabd-0fc8-43fd-8f96-796641590665")
 	)
 	(wire
 		(pts
@@ -11872,6 +11952,16 @@
 		)
 		(uuid "1bbb72f6-5fe8-48a9-93a9-13b4825ac331")
 	)
+	(label "CAN+"
+		(at 454.66 170.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1ea2dcf9-01df-43d3-98c6-4d8475cc9c35")
+	)
 	(label "CAN-"
 		(at 402.59 158.75 0)
 		(effects
@@ -12014,6 +12104,16 @@
 		)
 		(uuid "99f4a5c0-663d-4ba8-b385-61a1841d805a")
 	)
+	(label "CAN+"
+		(at 454.66 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9a982167-2836-4b06-a6e2-19eaf62c1286")
+	)
 	(label "MOSI"
 		(at 57.15 175.26 0)
 		(effects
@@ -12115,6 +12215,26 @@
 			(justify left bottom)
 		)
 		(uuid "dab9f1ce-ea4d-4cad-93f3-66b373be2409")
+	)
+	(label "CAN-"
+		(at 454.66 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "df0322b7-0ee5-4fe8-bd24-d10c8a499aeb")
+	)
+	(label "CAN-"
+		(at 454.66 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e5fbdd1b-b981-400e-9151-00756b014025")
 	)
 	(label "RCC_OSC_IN"
 		(at 102.87 24.13 270)
@@ -12842,6 +12962,83 @@
 			(project "forte-encoder-pcb"
 				(path "/4fd4f7f7-4e27-480c-b1ee-dc0730be04ca"
 					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 444.5 137.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "16d076be-f022-4f14-aa32-a995af80c0fa")
+		(property "Reference" "J10"
+			(at 445.135 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 445.135 134.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 444.5 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 444.5 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 444.5 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9282f590-e72b-44ec-8d68-049ac7ad9490")
+		)
+		(instances
+			(project "forte-encoder-pcb"
+				(path "/4fd4f7f7-4e27-480c-b1ee-dc0730be04ca"
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -20739,6 +20936,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 444.5 151.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e4c56a13-7734-41ac-b7f0-674b927fde43")
+		(property "Reference" "J9"
+			(at 445.135 146.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 445.135 148.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 444.5 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 444.5 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 444.5 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "823eef2d-f012-4777-a10f-e93d968c5bc2")
+		)
+		(instances
+			(project "forte-encoder-pcb"
+				(path "/4fd4f7f7-4e27-480c-b1ee-dc0730be04ca"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+12V")
 		(at 370.84 39.37 0)
 		(unit 1)
@@ -21044,6 +21318,83 @@
 			(project "forte-encoder-pcb"
 				(path "/4fd4f7f7-4e27-480c-b1ee-dc0730be04ca"
 					(reference "TP_GND2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 444.5 165.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f061c3eb-6264-452f-84fd-0cc81a7ba5a0")
+		(property "Reference" "J8"
+			(at 445.135 160.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 445.135 162.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 444.5 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 444.5 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 444.5 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "62b8134d-3d69-4e43-8216-94d2ff661a9a")
+		)
+		(instances
+			(project "forte-encoder-pcb"
+				(path "/4fd4f7f7-4e27-480c-b1ee-dc0730be04ca"
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -21377,6 +21728,83 @@
 			(project "forte-encoder-pcb"
 				(path "/4fd4f7f7-4e27-480c-b1ee-dc0730be04ca"
 					(reference "J0")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 444.5 177.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f47dcbcc-2539-4ae8-a111-df71ab32ec92")
+		(property "Reference" "J7"
+			(at 445.135 172.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 445.135 175.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 444.5 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 444.5 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 444.5 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a55a09c7-7439-4b2a-b1fc-44b1754dfc54")
+		)
+		(instances
+			(project "forte-encoder-pcb"
+				(path "/4fd4f7f7-4e27-480c-b1ee-dc0730be04ca"
+					(reference "J7")
 					(unit 1)
 				)
 			)
