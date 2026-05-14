@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.7,
-          "height": 1.5,
-          "width": 1.5
+          "drill": 1.5,
+          "height": 3.0,
+          "width": 3.0
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -196,6 +196,7 @@
       "track_widths": [
         0.0,
         0.2,
+        0.3,
         0.4
       ],
       "tuning_pattern_settings": {
@@ -518,7 +519,8 @@
     },
     "net_colors": {
       "+3.3V": "rgb(54, 255, 65)",
-      "GND": "rgb(72, 72, 72)"
+      "+48V": "rgb(132, 0, 0)",
+      "GND": "rgb(132, 132, 132)"
     },
     "netclass_assignments": null,
     "netclass_patterns": []
@@ -663,7 +665,7 @@
         "uuid": "4fd4f7f7-4e27-480c-b1ee-dc0730be04ca"
       }
     ],
-    "used_designators": "J7-10",
+    "used_designators": "CN1-3,J7-10",
     "variants": []
   },
   "sheets": [
